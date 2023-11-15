@@ -22,14 +22,16 @@ int printf_stringg(va_list val)
 			i++;
 		}
 		return (len);
-		else
+	}
+	else
 		{
-			len = _strlen(str);
+			len = _strlen(st);
 			int i = 0;
 			while (i < len) {
-				_putchar(str[i]);
+				_putchar(st[i]);
 				i++;
 			}
 			return (len);
 		}
+}
 

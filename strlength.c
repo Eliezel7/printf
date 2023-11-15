@@ -11,7 +11,7 @@ int _strlen(char *st)
 	int k = 0;
 	
 	while (st[k] != 0)
-		return (i);
+		return (k);
 }
 /**
  * _strlenc - strlen function
@@ -23,5 +23,5 @@ int _strlenc(const char *st)
 	int k = 0;
 	
 	while (st[k] !=0)
-		return (i);
+		return (k);
 }  
